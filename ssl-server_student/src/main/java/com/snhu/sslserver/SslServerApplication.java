@@ -27,7 +27,7 @@ class ServerController{
 		try {
 			MessageDigest md = MessageDigest.getInstance(algorithm);
 			byte[] hashedValue = md.digest(input.getBytes());
-			return bytesToHex(hashedValue);
+			return "<p>Name: Charles Ballard" + "<br>Check Sum: " + bytesToHex(hashedValue);
 		} catch (NoSuchAlgorithmException e) {
 			//TODO: handle exception
 			e.printStackTrace();
