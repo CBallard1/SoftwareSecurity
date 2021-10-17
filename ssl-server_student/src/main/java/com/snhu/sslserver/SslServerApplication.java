@@ -17,7 +17,6 @@ public class SslServerApplication {
 	}
 
 }
-//FIXME: Add route to enable check sum return of static data example:  String data = "Hello World Check Sum!";
 
 @RestController
 class ServerController{
@@ -29,7 +28,6 @@ class ServerController{
 			byte[] hashedValue = md.digest(input.getBytes());
 			return "<p>Name: Charles Ballard" + "<br>Check Sum: " + bytesToHex(hashedValue);
 		} catch (NoSuchAlgorithmException e) {
-			//TODO: handle exception
 			e.printStackTrace();
 		}
 
