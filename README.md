@@ -1,8 +1,8 @@
 # SoftwareSecurity
 CS305 - Software Security
 
-**Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
-**
+**Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?**
+
   Artemis Financial was a financial consulting firm managing savings, retirement, investment, and insurance plans. They wanted to modernize and secure their existing RESTful API to protect their customers and themselves from external threats. 
 
 **What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?**
